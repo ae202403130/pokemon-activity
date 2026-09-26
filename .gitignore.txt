@@ -4,7 +4,3 @@ build
 .DS_Store
 .env
 
-git rm -r --cached node_modules
-echo "node_modules" >> .gitignore
-git commit -m "Remove node_modules from repo"
-git push
